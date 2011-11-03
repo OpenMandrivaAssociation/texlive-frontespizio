@@ -1,3 +1,9 @@
+# revision 24054
+# category Package
+# catalog-ctan /macros/latex/contrib/frontespizio
+# catalog-date 2011-09-21 15:45:55 +0200
+# catalog-license lppl
+# catalog-version 1.4a
 Name:		texlive-frontespizio
 Version:	1.4a
 Release:	1
@@ -63,6 +69,7 @@ Italy.
 #- source
 %doc %{_texmfdistdir}/source/latex/frontespizio/frontespizio.dtx
 %doc %{_texmfdistdir}/source/latex/frontespizio/frontespizio.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -73,3 +80,5 @@ Italy.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
