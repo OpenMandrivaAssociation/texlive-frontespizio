@@ -6,7 +6,7 @@
 # catalog-version 1.4a
 Name:		texlive-frontespizio
 Version:	1.4a
-Release:	6
+Release:	7
 Summary:	Create a frontispiece for Italian theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/frontespizio
