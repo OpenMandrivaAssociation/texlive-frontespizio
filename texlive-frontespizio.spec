@@ -1,6 +1,6 @@
 Name:		texlive-frontespizio
 Version:	24054
-Release:	1
+Release:	2
 Summary:	Create a frontispiece for Italian theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/frontespizio
