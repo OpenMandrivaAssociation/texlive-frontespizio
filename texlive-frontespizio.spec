@@ -3,7 +3,7 @@ Version:	24054
 Release:	2
 Summary:	Create a frontispiece for Italian theses
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/frontespizio
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/frontespizio
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frontespizio.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frontespizio.doc.r%{version}.tar.xz
